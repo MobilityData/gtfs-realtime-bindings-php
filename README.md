@@ -24,7 +24,9 @@ so, add a dependency in your `composer.json` file:
 }
 ```
 
-Where `x.y.z` is the latest release version: [![PHP version](https://badge.fury.io/ph/google%2Fgtfs-realtime-bindings.svg)](http://badge.fury.io/ph/google%2Fgtfs-realtime-bindings)
+Where `x.y.z` is the latest release version:
+
+[![PHP version](https://badge.fury.io/ph/google%2Fgtfs-realtime-bindings.svg)](http://badge.fury.io/ph/google%2Fgtfs-realtime-bindings)
 
 Then update your Composer dependencies:
 
