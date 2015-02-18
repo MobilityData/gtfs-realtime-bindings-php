@@ -1,5 +1,7 @@
 # PHP GTFS-realtime Language Bindings
 
+[![PHP version](https://badge.fury.io/ph/google%2Fgtfs-realtime-bindings.svg)](http://badge.fury.io/ph/google%2Fgtfs-realtime-bindings)
+
 Provides PHP classes generated from the
 [GTFS-realtime](https://developers.google.com/transit/gtfs-realtime/) Protocol
 Buffer specification.  These classes will allow you to parse a binary Protocol
@@ -18,9 +20,11 @@ so, add a dependency in your `composer.json` file:
 
 ```
 "require": {
-  "google/gtfs-realtime-bindings": "0.0.1"
+  "google/gtfs-realtime-bindings": "x.y.z"
 }
 ```
+
+Where `x.y.z` is the latest release version: [![PHP version](https://badge.fury.io/ph/google%2Fgtfs-realtime-bindings.svg)](http://badge.fury.io/ph/google%2Fgtfs-realtime-bindings)
 
 Then update your Composer dependencies:
 
