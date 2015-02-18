@@ -3,7 +3,7 @@
     "type": "library",
     "description": "PHP classes generated from the GTFS-realtime protocol buffer specification.",
     "keywords": ["gtfs-realtime"],
-    "homepage": "https://github.com/google/gtfs-realtime-bindings",
+    "homepage": "https://github.com/google/gtfs-realtime-bindings-php",
     "license": "Apache-2.0",
     "require": {
         "php": ">=5.3.0",
