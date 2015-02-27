@@ -22,3 +22,10 @@ Test the generated code:
 ```
 vendor/bin/phpunit
 ````
+
+Tag the new release:
+
+```
+git tag -a 0.0.1 -m "Tag for 0.0.1 release"
+git push --tags -u origin master
+```
