@@ -16,8 +16,9 @@
  */
 
 use transit_realtime\FeedMessage;
+use PHPUnit\Framework\TestCase;
 
-class GtfsRealtimeTest extends PHPUnit_Framework_TestCase
+class GtfsRealtimeTest extends TestCase
 {
   public function testParse()
   {
