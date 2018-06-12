@@ -32,38 +32,36 @@ namespace transit_realtime {
         {
             $descriptor = new \DrSlump\Protobuf\Descriptor(__CLASS__, 'transit_realtime.FeedMessage');
 
-             
-            // required message header = 1 
-            $f = new \DrSlump\Protobuf\Field();
-            $f->number = 1;
-            $f->name   = "header";
-            $f->rule   = \DrSlump\Protobuf\Protobuf::RULE_REQUIRED;
-            $f->type   = \DrSlump\Protobuf\Protobuf::TYPE_MESSAGE;
-             
-            $f->reference = '\transit_realtime\FeedHeader';
+            $message_header = [
+              1 => 'header',
+              2 => 'entity'
+            ];
 
-            $descriptor->addField($f);
-             
-            // repeated message entity = 2 
-            $f = new \DrSlump\Protobuf\Field();
-            $f->number = 2;
-            $f->name   = "entity";
-            $f->rule   = \DrSlump\Protobuf\Protobuf::RULE_REPEATED;
-            $f->type   = \DrSlump\Protobuf\Protobuf::TYPE_MESSAGE;
-             
-            $f->reference = '\transit_realtime\FeedEntity';
+            foreach($message_header as $key => $value) {
+              $f = new \DrSlump\Protobuf\Field();
+              $f->number = $key;
+              $f->name   = $value;
+              $f->rule   = \DrSlump\Protobuf\Protobuf::RULE_REQUIRED;
+              $f->type   = \DrSlump\Protobuf\Protobuf::TYPE_MESSAGE;
+                switch ($f->number) {
+                  // required message header = 1
+                  case 1:
+                    $f->reference = '\transit_realtime\FeedHeader';
+                    break;
+                  // repeated message entity = 2
+                  case 2:
+                    $f->reference = '\transit_realtime\FeedEntity';
+                    break;
+                }
+              $descriptor->addField($f);
+            }
 
-            $descriptor->addField($f);
-            
             foreach (self::$__extensions as $cb) {
                 $descriptor->addField($cb(), true);
             }
-
             return $descriptor;
         }
-
-
-                
+        
         /**
          * Check if "header" has a value
          *
