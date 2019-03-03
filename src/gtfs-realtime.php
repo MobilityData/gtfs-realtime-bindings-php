@@ -86,7 +86,7 @@ namespace transit_realtime {
         /**
          * Get "header" value
          *
-         * @return transit_realtime\FeedHeader 
+         * @return FeedHeader 
          */
         public function getHeader()
         {
@@ -96,7 +96,7 @@ namespace transit_realtime {
         /**
          * Set "header" value
          *
-         * @param transit_realtime\FeedHeader $value
+         * @param FeedHeader $value
          */
         public function setHeader($value)
         {
@@ -127,7 +127,7 @@ namespace transit_realtime {
         /**
          * Get "entity" value
          *
-         * @return transit_realtime\FeedEntity[]
+         * @return FeedEntity[]
          */
         public function getEntity($idx = null)
         {
@@ -141,7 +141,7 @@ namespace transit_realtime {
         /**
          * Get "entity" list of values
          *
-         * @return transit_realtime\FeedEntity[]
+         * @return FeedEntity[]
          */
         public function getEntityList()
         {
@@ -151,7 +151,7 @@ namespace transit_realtime {
         /**
          * Set "entity" value
          *
-         * @param transit_realtime\FeedEntity[] $value
+         * @param FeedEntity[] $value
          */
         public function setEntity($value)
         {
@@ -161,7 +161,7 @@ namespace transit_realtime {
         /**
          * Add a new element to "entity"
          *
-         * @param transit_realtime\FeedEntity $value
+         * @param FeedEntity $value
          */
         public function addEntity($value)
         {
@@ -543,7 +543,7 @@ namespace transit_realtime {
         /**
          * Get "trip_update" value
          *
-         * @return transit_realtime\TripUpdate 
+         * @return TripUpdate 
          */
         public function getTripUpdate()
         {
@@ -553,7 +553,7 @@ namespace transit_realtime {
         /**
          * Set "trip_update" value
          *
-         * @param transit_realtime\TripUpdate $value
+         * @param TripUpdate $value
          */
         public function setTripUpdate($value)
         {
@@ -584,7 +584,7 @@ namespace transit_realtime {
         /**
          * Get "vehicle" value
          *
-         * @return transit_realtime\VehiclePosition 
+         * @return VehiclePosition 
          */
         public function getVehicle()
         {
@@ -594,7 +594,7 @@ namespace transit_realtime {
         /**
          * Set "vehicle" value
          *
-         * @param transit_realtime\VehiclePosition $value
+         * @param VehiclePosition $value
          */
         public function setVehicle($value)
         {
@@ -625,7 +625,7 @@ namespace transit_realtime {
         /**
          * Get "alert" value
          *
-         * @return transit_realtime\Alert 
+         * @return Alert 
          */
         public function getAlert()
         {
@@ -635,7 +635,7 @@ namespace transit_realtime {
         /**
          * Set "alert" value
          *
-         * @param transit_realtime\Alert $value
+         * @param Alert $value
          */
         public function setAlert($value)
         {
@@ -742,7 +742,7 @@ namespace transit_realtime {
         /**
          * Get "trip" value
          *
-         * @return transit_realtime\TripDescriptor 
+         * @return TripDescriptor 
          */
         public function getTrip()
         {
@@ -752,7 +752,7 @@ namespace transit_realtime {
         /**
          * Set "trip" value
          *
-         * @param transit_realtime\TripDescriptor $value
+         * @param TripDescriptor $value
          */
         public function setTrip($value)
         {
@@ -783,7 +783,7 @@ namespace transit_realtime {
         /**
          * Get "vehicle" value
          *
-         * @return transit_realtime\VehicleDescriptor 
+         * @return VehicleDescriptor 
          */
         public function getVehicle()
         {
@@ -793,7 +793,7 @@ namespace transit_realtime {
         /**
          * Set "vehicle" value
          *
-         * @param transit_realtime\VehicleDescriptor $value
+         * @param VehicleDescriptor $value
          */
         public function setVehicle($value)
         {
@@ -824,7 +824,7 @@ namespace transit_realtime {
         /**
          * Get "stop_time_update" value
          *
-         * @return transit_realtime\TripUpdate\StopTimeUpdate[]
+         * @return TripUpdate\StopTimeUpdate[]
          */
         public function getStopTimeUpdate($idx = null)
         {
@@ -838,7 +838,7 @@ namespace transit_realtime {
         /**
          * Get "stop_time_update" list of values
          *
-         * @return transit_realtime\TripUpdate\StopTimeUpdate[]
+         * @return TripUpdate\StopTimeUpdate[]
          */
         public function getStopTimeUpdateList()
         {
@@ -848,7 +848,7 @@ namespace transit_realtime {
         /**
          * Set "stop_time_update" value
          *
-         * @param transit_realtime\TripUpdate\StopTimeUpdate[] $value
+         * @param TripUpdate\StopTimeUpdate[] $value
          */
         public function setStopTimeUpdate($value)
         {
@@ -858,7 +858,7 @@ namespace transit_realtime {
         /**
          * Add a new element to "stop_time_update"
          *
-         * @param transit_realtime\TripUpdate\StopTimeUpdate $value
+         * @param TripUpdate\StopTimeUpdate $value
          */
         public function addStopTimeUpdate($value)
         {
@@ -1307,7 +1307,7 @@ namespace transit_realtime\TripUpdate {
         /**
          * Get "arrival" value
          *
-         * @return transit_realtime\TripUpdate\StopTimeEvent 
+         * @return TripUpdate\StopTimeEvent 
          */
         public function getArrival()
         {
@@ -1317,7 +1317,7 @@ namespace transit_realtime\TripUpdate {
         /**
          * Set "arrival" value
          *
-         * @param transit_realtime\TripUpdate\StopTimeEvent $value
+         * @param TripUpdate\StopTimeEvent $value
          */
         public function setArrival($value)
         {
@@ -1348,7 +1348,7 @@ namespace transit_realtime\TripUpdate {
         /**
          * Get "departure" value
          *
-         * @return transit_realtime\TripUpdate\StopTimeEvent 
+         * @return TripUpdate\StopTimeEvent 
          */
         public function getDeparture()
         {
@@ -1358,7 +1358,7 @@ namespace transit_realtime\TripUpdate {
         /**
          * Set "departure" value
          *
-         * @param transit_realtime\TripUpdate\StopTimeEvent $value
+         * @param TripUpdate\StopTimeEvent $value
          */
         public function setDeparture($value)
         {
@@ -1562,7 +1562,7 @@ namespace transit_realtime {
         /**
          * Get "trip" value
          *
-         * @return transit_realtime\TripDescriptor 
+         * @return TripDescriptor 
          */
         public function getTrip()
         {
@@ -1572,7 +1572,7 @@ namespace transit_realtime {
         /**
          * Set "trip" value
          *
-         * @param transit_realtime\TripDescriptor $value
+         * @param TripDescriptor $value
          */
         public function setTrip($value)
         {
@@ -1603,7 +1603,7 @@ namespace transit_realtime {
         /**
          * Get "vehicle" value
          *
-         * @return transit_realtime\VehicleDescriptor 
+         * @return VehicleDescriptor 
          */
         public function getVehicle()
         {
@@ -1613,7 +1613,7 @@ namespace transit_realtime {
         /**
          * Set "vehicle" value
          *
-         * @param transit_realtime\VehicleDescriptor $value
+         * @param VehicleDescriptor $value
          */
         public function setVehicle($value)
         {
@@ -1644,7 +1644,7 @@ namespace transit_realtime {
         /**
          * Get "position" value
          *
-         * @return transit_realtime\Position 
+         * @return Position 
          */
         public function getPosition()
         {
@@ -1654,7 +1654,7 @@ namespace transit_realtime {
         /**
          * Set "position" value
          *
-         * @param transit_realtime\Position $value
+         * @param Position $value
          */
         public function setPosition($value)
         {
@@ -2078,7 +2078,7 @@ namespace transit_realtime {
         /**
          * Get "active_period" value
          *
-         * @return transit_realtime\TimeRange[]
+         * @return TimeRange[]
          */
         public function getActivePeriod($idx = null)
         {
@@ -2092,7 +2092,7 @@ namespace transit_realtime {
         /**
          * Get "active_period" list of values
          *
-         * @return transit_realtime\TimeRange[]
+         * @return TimeRange[]
          */
         public function getActivePeriodList()
         {
@@ -2102,7 +2102,7 @@ namespace transit_realtime {
         /**
          * Set "active_period" value
          *
-         * @param transit_realtime\TimeRange[] $value
+         * @param TimeRange[] $value
          */
         public function setActivePeriod($value)
         {
@@ -2112,7 +2112,7 @@ namespace transit_realtime {
         /**
          * Add a new element to "active_period"
          *
-         * @param transit_realtime\TimeRange $value
+         * @param TimeRange $value
          */
         public function addActivePeriod($value)
         {
@@ -2143,7 +2143,7 @@ namespace transit_realtime {
         /**
          * Get "informed_entity" value
          *
-         * @return transit_realtime\EntitySelector[]
+         * @return EntitySelector[]
          */
         public function getInformedEntity($idx = null)
         {
@@ -2157,7 +2157,7 @@ namespace transit_realtime {
         /**
          * Get "informed_entity" list of values
          *
-         * @return transit_realtime\EntitySelector[]
+         * @return EntitySelector[]
          */
         public function getInformedEntityList()
         {
@@ -2167,7 +2167,7 @@ namespace transit_realtime {
         /**
          * Set "informed_entity" value
          *
-         * @param transit_realtime\EntitySelector[] $value
+         * @param EntitySelector[] $value
          */
         public function setInformedEntity($value)
         {
@@ -2177,7 +2177,7 @@ namespace transit_realtime {
         /**
          * Add a new element to "informed_entity"
          *
-         * @param transit_realtime\EntitySelector $value
+         * @param EntitySelector $value
          */
         public function addInformedEntity($value)
         {
@@ -2290,7 +2290,7 @@ namespace transit_realtime {
         /**
          * Get "url" value
          *
-         * @return transit_realtime\TranslatedString 
+         * @return TranslatedString 
          */
         public function getUrl()
         {
@@ -2300,7 +2300,7 @@ namespace transit_realtime {
         /**
          * Set "url" value
          *
-         * @param transit_realtime\TranslatedString $value
+         * @param TranslatedString $value
          */
         public function setUrl($value)
         {
@@ -2331,7 +2331,7 @@ namespace transit_realtime {
         /**
          * Get "header_text" value
          *
-         * @return transit_realtime\TranslatedString 
+         * @return TranslatedString 
          */
         public function getHeaderText()
         {
@@ -2341,7 +2341,7 @@ namespace transit_realtime {
         /**
          * Set "header_text" value
          *
-         * @param transit_realtime\TranslatedString $value
+         * @param TranslatedString $value
          */
         public function setHeaderText($value)
         {
@@ -2372,7 +2372,7 @@ namespace transit_realtime {
         /**
          * Get "description_text" value
          *
-         * @return transit_realtime\TranslatedString 
+         * @return TranslatedString 
          */
         public function getDescriptionText()
         {
@@ -2382,7 +2382,7 @@ namespace transit_realtime {
         /**
          * Set "description_text" value
          *
-         * @param transit_realtime\TranslatedString $value
+         * @param TranslatedString $value
          */
         public function setDescriptionText($value)
         {
@@ -3559,7 +3559,7 @@ namespace transit_realtime {
         /**
          * Get "trip" value
          *
-         * @return transit_realtime\TripDescriptor 
+         * @return TripDescriptor 
          */
         public function getTrip()
         {
@@ -3569,7 +3569,7 @@ namespace transit_realtime {
         /**
          * Set "trip" value
          *
-         * @param transit_realtime\TripDescriptor $value
+         * @param TripDescriptor $value
          */
         public function setTrip($value)
         {
@@ -3677,7 +3677,7 @@ namespace transit_realtime {
         /**
          * Get "translation" value
          *
-         * @return transit_realtime\TranslatedString\Translation[]
+         * @return TranslatedString\Translation[]
          */
         public function getTranslation($idx = null)
         {
@@ -3691,7 +3691,7 @@ namespace transit_realtime {
         /**
          * Get "translation" list of values
          *
-         * @return transit_realtime\TranslatedString\Translation[]
+         * @return TranslatedString\Translation[]
          */
         public function getTranslationList()
         {
@@ -3701,7 +3701,7 @@ namespace transit_realtime {
         /**
          * Set "translation" value
          *
-         * @param transit_realtime\TranslatedString\Translation[] $value
+         * @param TranslatedString\Translation[] $value
          */
         public function setTranslation($value)
         {
@@ -3711,7 +3711,7 @@ namespace transit_realtime {
         /**
          * Add a new element to "translation"
          *
-         * @param transit_realtime\TranslatedString\Translation $value
+         * @param TranslatedString\Translation $value
          */
         public function addTranslation($value)
         {
