@@ -11,6 +11,8 @@ For bindings in other languages, see the
 [gtfs-realtime-bindings](https://github.com/google/gtfs-realtime-bindings)
 project.
 
+**Deprecated:** *As of February 2019, the official `google-protobuf` Google protoc tool [doesn't support proto2 files](https://github.com/protocolbuffers/protobuf/issues/3623).  As a result we are deprecating the PHP bindings until official support for proto2 files is implemented in the Google protocol buffer tools.*
+
 ## Add the Dependency
 
 To use the `gtfs-realtime-bindings-php` classes in your own project, you need
